@@ -1,0 +1,12 @@
+@use "../colors/colors.scss" as v;
+
+.c-cursor {
+  transition: width, height 0.1s ease;
+  will-change: transform;
+}
+
+.cursor-clicked {
+  width: 15px !important;
+  height: 15px !important;
+}
+

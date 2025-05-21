@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+  
+
+
+@font-face {
+  font-family: fa1;
+  src: url(../../public/assets/fonts/PeydaWeb-Bold.woff2);
+}
+@font-face {
+  font-family: fa2;
+  src: url(../../public/assets/fonts/PeydaWeb-Black.woff2);
+}
+
+
+.fa2{
+  font-family: fa2 !important;
+}
+.en{
+  font-family: "Poppins" !important;
+  font-weight: 900;
+}

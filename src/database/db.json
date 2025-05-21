@@ -1,0 +1,118 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "title": "Ferrari Purosangue",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/ba/196debe3ad2c3ba_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/0a/922b7d02e05f90a_1250x0.png",
+      "desc": "اولین شاسی‌بلند فراری با طراحی لوکس و موتور قدرتمند V12.",
+      "price": 19500000000
+    },
+    {
+      "id": "2",
+      "title": "Mercedes-Benz GLS",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/fa/998f6216d4259fa_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/f4/be24dd5e87a51f4_1250x0.jpg",
+      "desc": "یک SUV بزرگ و بسیار لوکس از مرسدس بنز مناسب خانواده‌ها.",
+      "price": 9700000000
+    },
+    {
+      "id": "3",
+      "title": "Rolls-Royce Spectre",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/d7/aaa2fd4a28af0d7_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/89/c318499d2471589_1250x0.jpg",
+      "desc": "اولین رولزرویس تمام برقی با ترکیبی از فناوری و تجمل بی‌نظیر.",
+      "price": 26500000000
+    },
+    {
+      "id": "4",
+      "title": "Mercedes-Benz S63",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/df/878db2c61e360df_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/f7/614a63a016e26f7_1250x0.jpg",
+      "desc": "سدان لوکس و اسپرت با موتور قدرتمند AMG و امکانات رفاهی بی‌نظیر.",
+      "price": 11500000000
+    },
+    {
+      "id": "5",
+      "title": "Dodge Durango",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/36/d5c8bda5f3ee236_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/23/d3072a0c842bc23_1250x0.jpg",
+      "desc": "یک SUV پرقدرت آمریکایی با طراحی عضلانی و فضای داخلی جادار.",
+      "price": 7200000000
+    },
+    {
+      "id": "6",
+      "title": "Mercedes-Benz G63",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/9d/dd792261929449d_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/91/7de1c905fc60891_1250x0.jpg",
+      "desc": "شاسی‌بلند لوکس و آفرود معروف مرسدس با طراحی کلاسیک.",
+      "price": 16000000000
+    },
+    {
+      "id": "7",
+      "title": "BMW M5",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/16/9ee6a7e8ae43a16_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/1a/7dba04b2ae4e51a_1250x0.png",
+      "desc": "سدان اسپرت و سریع با هندلینگ بی‌نظیر و امکانات روز.",
+      "price": 8900000000
+    },
+    {
+      "id": "8",
+      "title": "Lamborgini Urus",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/93/ecee703886d6193_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/b3/e66af22c00c4ab3_1250x0.jpeg",
+      "desc": "SUV لوکس و بسیار سریع از لامبورگینی با طراحی خاص.",
+      "price": 18500000000
+    },
+    {
+      "id": "9",
+      "title": "Rolls-Royce Cullinan",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/8c/6e13c58fcb1bf8c_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/4c/35627be56d05c4c_1250x0.png",
+      "desc": "لوکس‌ترین شاسی‌بلند جهان با فضای داخلی شاهانه و طراحی خاص.",
+      "price": 27500000000
+    },
+    {
+      "id": "10",
+      "title": "Lexus LX",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/bf/6bafe0c41679bbf_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/e5/5fdc31d893c28e5_1250x0.jpg",
+      "desc": "شاسی‌بلند قابل اعتماد ژاپنی با دوام بالا و امکانات پیشرفته.",
+      "price": 9900000000
+    },
+    {
+      "id": "11",
+      "title": "Porsche Taycan",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/8d/03279d16d15998d_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/10/b731a142cf9a610_1250x0.jpg",
+      "desc": "سدان تمام برقی پورشه با عملکرد فوق‌العاده و طراحی مدرن.",
+      "price": 15500000000
+    },
+    {
+      "id": "12",
+      "title": "Toyota Land-Cruiser",
+      "cardImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/aa/1b82dd226a2f9aa_410x230.png",
+      "mainImg": "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/aa/6620d4557b9bfaa_1250x0.jpg",
+      "desc": "آفرودر قدرتمند ژاپنی با کیفیت ساخت بالا و محبوب در ایران.",
+      "price": 8400000000
+    }
+  ]
+  ,
+  "discounts": [
+    {
+      "id": "1",
+      "code": "mani",
+      "percentage": 10
+    },
+    {
+      "id": "2",
+      "code": "0FF20",
+      "percentage": 20
+    },
+    {
+      "id": "3",
+      "code": "1384M",
+      "percentage": 30
+    }
+  ]
+}

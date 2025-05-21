@@ -1,0 +1,11 @@
+.car-card{
+    .car-card-img{
+        transition: .5s ease;
+    }
+    &:hover{
+            .car-card-img{
+            transform: translateY(-10px);
+        }
+        
+    }
+}

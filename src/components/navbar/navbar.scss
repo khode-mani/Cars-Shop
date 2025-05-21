@@ -1,0 +1,37 @@
+// styles/component.module.scss
+@use '../colors/colors.scss' as v;
+
+// .all-nav-con{
+//   background-color: v.$sec;
+// }
+.all-nav-con{
+   max-width: 1540px;
+}
+.scrolly-nav{
+  height: 50px;
+  margin-top: 10px;
+  box-shadow: inset 10px 5px 30px -20px rgba(255, 255, 255, 0.573);
+  background-color: rgba(0, 0, 0, 0.343) !important;
+  border: 1px solid rgba(158, 157, 157, 0.269);
+  border-radius: 999px;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s ease;
+  ::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    backdrop-filter: blur(5px);
+    z-index: -10;
+  }
+}
+
+
+
+.of-panel{
+  will-change: transform;
+
+}

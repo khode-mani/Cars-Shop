@@ -1,0 +1,5 @@
+@use '../colors/colors.scss' as v;
+
+.add-counter{
+    box-shadow: inset -5px 0 10px  v.$third ,  inset 5px 0 10px  v.$third ;
+}
