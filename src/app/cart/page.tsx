@@ -22,7 +22,16 @@ export default function Cart() {
   const cartData = useAppSelector(state => state.cart.items);
 
   useEffect(() => {
-    fetch('http://localhost:8000/cars')
+
+    // fetch('http://localhost:8000/cars')
+    //   .then(res => res.json())
+    //   .then(data => setCars(data))
+    //   .catch(err => {
+    //     console.log('Error fetching cars', err);
+    //     setCars([]);
+    //   });
+
+    fetch('https://cars-shop-api.liara.run/cars')
       .then(res => res.json())
       .then(data => setCars(data))
       .catch(err => {
@@ -32,10 +41,17 @@ export default function Cart() {
   }, []);
 
   useEffect(() => {
-    fetch('http://localhost:8000/discounts')
+    
+    // fetch('http://localhost:8000/discounts')
+    //   .then(res => res.json())
+    //   .then(data => setDiscountCodes(data))
+    //   .catch(() => setDiscountCodes([]));
+
+    fetch('https://cars-shop-api.liara.run/discounts')
       .then(res => res.json())
       .then(data => setDiscountCodes(data))
       .catch(() => setDiscountCodes([]));
+      
   }, []);
 
 

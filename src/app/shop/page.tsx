@@ -46,7 +46,8 @@ export default async function Shop ({searchParams} : IShopProps)  {
 
 
 
-  const  res  = await fetch(`http://localhost:8000/cars?_page=${page}&_per_page=6&title=${PTitle}`);
+  // const  res  = await fetch(`http://localhost:8000/cars?_page=${page}&_per_page=6&title=${PTitle}`);
+  const  res  = await fetch(`https://cars-shop-api.liara.run/cars?_page=${page}&_per_page=6&title=${PTitle}`);
   const resData = await res.json() as ICarsList;
 
 

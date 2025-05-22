@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 // };
 
 
-// const theme = localStorage.getItem("theme") === "dark" ? true : false
+
 
 export default function RootLayout({
   children,

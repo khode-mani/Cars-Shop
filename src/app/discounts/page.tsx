@@ -26,7 +26,7 @@ export default function CopyButton() {
       })))
       .catch(err => console.error("خطا در کپی کردن متن", err));
 
-    // بعد از چند ثانیه، دکمه‌ها را به حالت اولیه برگردان
+   
     setTimeout(() => setCopied(prevState => ({
       ...prevState,
       [key]: false

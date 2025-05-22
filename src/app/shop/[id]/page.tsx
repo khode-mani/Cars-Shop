@@ -26,7 +26,8 @@ export default async function Car({params} : PageProps) {
   const { id } = await params;
   console.log(id);
   
-  const res = await fetch(`http://localhost:8000/cars/${id}`);
+  // const res = await fetch(`http://localhost:8000/cars/${id}`);
+  const res = await fetch(`https://cars-shop-api.liara.run/cars/${id}`);
   const resData = (await res.json()) as ICars;
 
   return (
@@ -37,8 +38,8 @@ export default async function Car({params} : PageProps) {
           <Image
                alt="mew"
                src={resData.mainImg}
-               height={200}
-               width={200}
+               height={500}
+               width={500}
                className="object-cover  w-full h-full max-h-full"
                 />
 
