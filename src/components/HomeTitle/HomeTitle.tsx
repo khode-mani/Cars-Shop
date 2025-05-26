@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
-import GwImg from '../../../public/assets/images/na-glavnuyu-gelik-1.webp'
+// import GwImg from '../../../public/assets/images/na-glavnuyu-gelik-1.webp'
+import GwImg from '../../../public/assets/images/title-g.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from "react";
