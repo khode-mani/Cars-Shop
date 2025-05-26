@@ -114,7 +114,8 @@ export default function Cart() {
             {finalCartItems.map(item => <CartCard {...item} key={item.id} />)}
           </Container>
           <Container>
-            <div className='bg-amber-500 w-full min-h-150 lg:min-h-70 invoice lg:p-10 p-5 grid grid-cols-1 lg:grid-cols-2 text-white'>
+            <div className=' w-full min-h-150 lg:min-h-70 invoice lg:p-10 p-5 grid grid-cols-1 lg:grid-cols-2 text-white mt-10'>
+              
               <div className="right h-full w-full flex flex-col justify-center items-center gap-5">
                 <h2 className='text-2xl inline-block'>
                   قیمت کل :

@@ -67,8 +67,8 @@ export default function Home() {
 
         <Container className="border-t-1 pt-20 pb-40 border-gray-300">
 
+            <h2 className="text-center text-4xl py-10 ">چرا ما؟</h2>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:px-10  w-full">
-
             {
             whyUsItems.map((item , index) => <WhyUs icon={item.Icon} title={item.title} desc={item.desc} key={index}/>)
             }
