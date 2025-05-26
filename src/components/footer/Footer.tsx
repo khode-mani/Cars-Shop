@@ -6,8 +6,12 @@ function Footer() {
     
     <footer className=' lg:flex h-full  mx-auto w-full   max-w-[1538px] lg:p-10'>
 
-        <div className='flex flex-col lg:flex-row gap-10 justify-center items-center  en text-gray-300 bg-indigo-700 rounded-t-3xl lg:rounded-4xl  w-full h-full relative'>
-            
+        <div className=' text-gray-300 bg-indigo-500 rounded-t-3xl lg:rounded-4xl  w-full h-full relative flex justify-center items-center'>
+
+            <div className='flex flex-col lg:flex-row gap-10 justify-center items-center  en w-[98%] h-[93%]  rounded-t-3xl lg:rounded-[25px]
+            bg-gradient-to-b from-indigo-900 to-indigo-500
+            '>
+                
             <h1 className='text-5xl lg:text-9xl border-b-8 lg:border-b-0 lg:border-l-8  px-10 lg:pl-10 '>
                 Footer
             </h1>
@@ -43,6 +47,7 @@ function Footer() {
                 <p className='absolute right-0 w-full font-bold bottom-3 text-center mx-auto'>
                     . Copyright © 2025. All Rights Reserved
                 </p>
+            </div>
         </div>
 
     </footer>
