@@ -6,7 +6,7 @@ function Footer() {
     
     <footer className=' lg:flex h-full  mx-auto w-full   max-w-[1538px] lg:p-10'>
 
-        <div className=' text-gray-300 bg-indigo-500 rounded-t-3xl lg:rounded-4xl  w-full h-full relative flex justify-center items-center'>
+        <div className=' text-gray-300 bg-indigo-500 rounded-t-3xl lg:rounded-4xl  w-full h-full relative flex justify-center items-center shadow-2xl'>
 
             <div className='flex flex-col lg:flex-row gap-10 justify-center items-center  en w-[98%] h-[93%]  rounded-t-3xl lg:rounded-[25px]
             bg-gradient-to-b from-indigo-900 to-indigo-500
