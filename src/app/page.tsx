@@ -14,9 +14,9 @@ export default function Home() {
         <div className="right
          bg-indgo-500 h-1/3 lg:h-full w-full lg:w-4/10 lg:pb-40 flex justify-center items-center ">
 
-          <div className="border-r-8  px-5 py-5 lg:right-[-30] relative mt-20 lg:mt-0">
+          <div className="border-r-8  px-5 py-5 lg:right-[-30] relative mt-20 lg:mt-0 cars-shop-title">
 
-              <h1 className="fa2 text-6xl mb-10">  <RxModulzLogo className="inline text-indigo-500 "/>  مانی شاپ</h1>
+              <h1 className="fa2 text-6xl mb-10">  <RxModulzLogo className="inline text-indigo-500 "/>  کارز شاپ</h1>
 
               <div className="gap-10 bg-blac flex justify-evenly items-center">
                 

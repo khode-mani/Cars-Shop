@@ -22,9 +22,9 @@ html {
     background-color: v.$dark-body;
     color: white;
     position: relative;
-    max-width: 1540px !important; /* حد مناسب برای لپ‌تاپ و دسکتاپ */
+    max-width: 1540px !important; 
     margin: 0 auto;
-
+    
     a,
     button {
       cursor: none;
@@ -65,4 +65,9 @@ html {
     // text-shadow: 3px 3px 0 white;
     // }
   }
+}
+
+.cars-shop-title{
+  border-radius: 10px 0 0 10px;
+  background: linear-gradient(to left , white -3000%, transparent);  
 }

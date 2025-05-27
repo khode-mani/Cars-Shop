@@ -1,9 +1,10 @@
-// styles/component.module.scss
 @use '../colors/colors.scss' as v;
 
-// .all-nav-con{
-//   background-color: v.$sec;
+
+// .static-nav{
+//   background: linear-gradient(to bottom , rgba(0, 0, 0, 0.104) , transparent);
 // }
+
 .all-nav-con{
    max-width: 1540px;
 }

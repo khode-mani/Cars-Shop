@@ -12,7 +12,7 @@ function CarsCard(props : ICars) {
   return (
     <div className="lg:p-10 px-5 py-15  inline-block">
 
-      <div className="car-card bg-gradient-to-tr  from-gray-300 to-blue-200  rounded-2xl  w-full lg:h-70 hover:scale-[1.05] transition-all duration-500 flex flex-col items-center gap-4 relative">
+      <div className="car-card bg-gradient-to-tr  from-gray-300 to-blue-200  rounded-2xl  w-full lg:h-70 hover:scale-[1.02] transition-all duration-500 flex flex-col items-center gap-4 relative">
         
         <div className="w-full">
             <CarsCardImg imgSrc={props.cardImg}/>
