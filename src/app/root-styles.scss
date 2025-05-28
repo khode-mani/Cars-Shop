@@ -13,7 +13,7 @@
 }
 
 html {
-  cursor: none;
+  // cursor: none;
   overflow-x: hidden;
 
   body {
@@ -25,10 +25,10 @@ html {
     max-width: 1540px !important; 
     margin: 0 auto;
     
-    a,
-    button {
-      cursor: none;
-    }
+    // a,
+    // button {
+    //   cursor: none;
+    // }
 
     .content {
       background-color: v.$dark-body;

@@ -16,7 +16,7 @@ export default function Home() {
 
           <div className="border-r-8  px-5 py-5 lg:right-[-30] relative mt-20 lg:mt-0 cars-shop-title">
 
-              <h1 className="fa2 text-6xl mb-10">  <RxModulzLogo className="inline text-indigo-500 "/>  کارز شاپ</h1>
+              <h1 className="fa2 text-6xl mb-10  tracking-light">  <RxModulzLogo className="inline text-indigo-500 "/> کارز شاپ</h1>
 
               <div className="gap-10 bg-blac flex justify-evenly items-center">
                 
@@ -70,7 +70,7 @@ export default function Home() {
             <h2 className="text-center text-4xl py-10 ">چرا ما؟</h2>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:px-10  w-full">
             {
-            whyUsItems.map((item , index) => <WhyUs icon={item.Icon} title={item.title} desc={item.desc} key={index}/>)
+            whyUsItems.map((item , index) => <WhyUs icon={item.Icon} title={item.title} desc={item.desc} key={index} />)
             }
 
 

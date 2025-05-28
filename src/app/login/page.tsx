@@ -53,7 +53,7 @@ function Login() {
               </div>
               <input className="input" name="email" placeholder="نام کاربری" type="email"/>
               <input className="input" name="password" placeholder="رمز" type="password" />
-              <button className="button-confirm"
+              <button className="button-confirm cursor-pointer"
               onClick={handleLogin}
               > → تایید</button>
         </form>

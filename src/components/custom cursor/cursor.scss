@@ -1,12 +1,17 @@
-@use "../colors/colors.scss" as v;
-
 .c-cursor {
-  transition: width, height 0.1s ease;
+  transition: width 0.2s ease-out, height 0.2s ease-out, background 0.2s ease,opacity .2s ease;
+
   will-change: transform;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 9999px;
+  pointer-events: none;
+  z-index: 9999;
 }
 
 .cursor-clicked {
   width: 15px !important;
   height: 15px !important;
 }
-
