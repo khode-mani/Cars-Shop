@@ -7,9 +7,9 @@ import "swiper/css/effect-coverflow";
 import Image from "next/image";
 
 const images = [
-  "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/89/81e77deb0260a89_1250x0.png",
-  "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/cache/thumb/03/d91ee9de3c05b03_1600x0.jpg",
-  "https://20126a3f-8651-4a19-b2fe-b4ed7855fdf6.selcdn.net/wp-content/uploads/2025/04/1G2A2886-scaled-e1745562623447.jpg",
+  "https://rng-t.com/wp-content/cache/thumb/89/81e77deb0260a89_1250x0.png",
+  "https://rng-t.com/wp-content/uploads/2024/11/IMG-20241124-WA0031-scaled-e1732511049946.jpg",
+  "https://rng-t.com/wp-content/uploads/2025/05/IMG_8650-scaled.jpg",
 ];
 
 export default function Carousel() {
