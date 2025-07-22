@@ -21,7 +21,8 @@ export default async function Car({ params }: PageProps) {
   console.log(id);
 
   // const res = await fetch(`http://localhost:8000/cars/${id}`);
-  const res = await fetch(`https://cars-shop-api.liara.run/cars/${id}`);
+  // const res = await fetch(`https://cars-shop-api.liara.run/cars/${id}`);
+  const res = await fetch(`https://687ffa43f1dcae717b60ca53.mockapi.io/api/v1/cars/${id}`);
   const resData = (await res.json()) as ICars;
 
   return (

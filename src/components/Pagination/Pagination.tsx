@@ -13,8 +13,9 @@ function Pagination({pageCount} : {pageCount:number}) {
     
         const page = e.selected + 1;
 
-        router.push(`/shop?page=${page}&per_page=6`)        
-        
+        // router.push(`/shop?page=${page}&per_page=6`)        
+        router.push(`/shop?page=${page}&limit=6`)
+
     }
 
   return (

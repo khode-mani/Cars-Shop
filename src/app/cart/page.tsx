@@ -31,7 +31,8 @@ export default function Cart() {
     //     setCars([]);
     //   });
 
-    fetch('https://cars-shop-api.liara.run/cars')
+    // fetch('https://cars-shop-api.liara.run/cars')
+    fetch('https://687ffa43f1dcae717b60ca53.mockapi.io/api/v1/cars')
       .then(res => res.json())
       .then(data => setCars(data))
       .catch(err => {
@@ -47,7 +48,8 @@ export default function Cart() {
     //   .then(data => setDiscountCodes(data))
     //   .catch(() => setDiscountCodes([]));
 
-    fetch('https://cars-shop-api.liara.run/discounts')
+    // fetch('https://cars-shop-api.liara.run/discounts')
+    fetch('https://687ffa43f1dcae717b60ca53.mockapi.io/api/v1/discounts')
       .then(res => res.json())
       .then(data => setDiscountCodes(data))
       .catch(() => setDiscountCodes([]));
